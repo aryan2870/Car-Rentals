@@ -6,7 +6,7 @@ Welcome to the **Car Rental System** repository! This is a full-stack web applic
 
 ## Demo
 
-Explore the live demo of the application here: (amazing-cocada-4fdf02.netlify.app)
+Explore the live demo of the application here: amazing-cocada-4fdf02.netlify.app
 
 ---
 
