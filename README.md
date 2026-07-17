@@ -6,7 +6,7 @@ Welcome to the **Car Rental System** repository! This is a full-stack web applic
 
 ## Demo
 
-Explore the live demo of the application here: (https://mern-car-rental.netlify.app/)
+Explore the live demo of the application here: (amazing-cocada-4fdf02.netlify.app)
 
 ---
 
@@ -35,51 +35,6 @@ Explore the live demo of the application here: (https://mern-car-rental.netlify.
 - **MongoDB**: For storing user data, car inventory, and bookings.
 
 ---
-
-## Installation Guide
-
-Follow these steps to run the project locally:
-
-### Prerequisites
-- **Node.js** and **npm** installed.
-- **MongoDB** installed and running.
-
-### Steps
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aryan2870/Car-Rentals.git
-   cd Car-Rental-MERN
-
-2. Install dependencies for Cliend and Server:
-   ```bash
-   cd Car-Rental-MERN
-   npm install
-   cd ../backend
-   npm install
-
-3. Set up environment variables:
-
-  - Create a .env file in the backend directory.
-```bash
-MONGO_URI=<Your MongoDB Connection String>
-JWT_SECRET=<Your Secret Key>
-PORT=5000
-```
-4. Start the development servers:
-   - Backend :
-     ```bash
-     cd backend
-     npm start
-     ```
-   - Frontend :
-     ```bash
-     cd Car-Rental-MERN
-     npm start
-     ```
-5. Open the app: Navigate to http://localhost:3000 in your browser.
-
-
 
 
 
