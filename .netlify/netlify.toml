@@ -1,0 +1,44 @@
+functionsDirectory = "C:\\Users\\Aryan\\OneDrive\\Desktop\\Car Rentals\\Car-Rental-MERN\\netlify\\functions"
+functionsDirectoryOrigin = "config"
+redirectsOrigin = "config"
+plugins = []
+headers = []
+
+[build]
+publish = "C:\\Users\\Aryan\\OneDrive\\Desktop\\Car Rentals\\Car-Rental-MERN\\build"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "C:\\Users\\Aryan\\OneDrive\\Desktop\\Car Rentals\\Car-Rental-MERN"
+command = "npm run build"
+functions = "C:\\Users\\Aryan\\OneDrive\\Desktop\\Car Rentals\\Car-Rental-MERN\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[functions]
+
+[functions."*"]
+node_bundler = "esbuild"
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/server/api/:splat"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
