@@ -1,0 +1,86 @@
+[
+  {
+    "id": "car-1",
+    "vehicleType": "car",
+    "name": "Hyundai Elantra",
+    "type": "Economy",
+    "pricePerDay": 1800,
+    "seats": 5,
+    "luggage": 2,
+    "transmission": "Automatic",
+    "features": ["Chilled A/C", "Bluetooth Audio", "USB Charging Port", "Rear-view Camera"],
+    "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "car-2",
+    "vehicleType": "car",
+    "name": "Jeep Grand Cherokee",
+    "type": "SUV",
+    "pricePerDay": 3500,
+    "seats": 7,
+    "luggage": 4,
+    "transmission": "Automatic",
+    "features": ["4x4 Drive", "Apple CarPlay", "Heated Seats", "Blind Spot Monitor"],
+    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "car-3",
+    "vehicleType": "car",
+    "name": "BMW 5 Series",
+    "type": "Premium Luxury",
+    "pricePerDay": 8000,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "Automatic",
+    "features": ["Leather Seats", "Harman Kardon Sound", "Sunroof", "Lane Keep Assist"],
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "car-4",
+    "vehicleType": "car",
+    "name": "Porsche 911 Carrera",
+    "type": "Sports Coupe",
+    "pricePerDay": 35000,
+    "seats": 2,
+    "luggage": 1,
+    "transmission": "PDK Automatic",
+    "features": ["Twin Turbo H6 Engine", "Sport Exhaust", "Carbon Accents", "Bose Surround System"],
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "bike-1",
+    "vehicleType": "bike",
+    "name": "Honda Activa 6G",
+    "type": "Economy Scooty",
+    "pricePerDay": 400,
+    "seats": 2,
+    "luggage": 0,
+    "transmission": "Automatic CVT",
+    "features": ["Helmet Included", "Zero Security Deposit", "Under-seat Storage", "Combi-Braking System"],
+    "image": "https://images.unsplash.com/photo-1622185135505-2d795003994a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "bike-2",
+    "vehicleType": "bike",
+    "name": "Royal Enfield Classic 350",
+    "type": "Cruiser Motorcycle",
+    "pricePerDay": 900,
+    "seats": 2,
+    "luggage": 1,
+    "transmission": "5-Speed Manual",
+    "features": ["2 Helmets Included", "Dual-Channel ABS", "Premium Backrest", "Touring Crash Guards"],
+    "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "bike-3",
+    "vehicleType": "bike",
+    "name": "Yamaha R15 V4",
+    "type": "Sports Bike",
+    "pricePerDay": 1100,
+    "seats": 2,
+    "luggage": 0,
+    "transmission": "6-Speed Manual",
+    "features": ["2 Helmets Included", "Quickshifter", "Traction Control System", "Dual LED Headlamps"],
+    "image": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?auto=format&fit=crop&w=600&q=80"
+  }
+]
