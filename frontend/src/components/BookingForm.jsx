@@ -435,7 +435,7 @@ const BookingForm = ({ onNext }) => {
         {/* Submit */}
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <button type="submit" className="btn-primary" style={{ padding: '14px 28px' }}>
-            Find Available Cars
+            {vehicleType === 'bike' ? 'Find Available Bikes' : 'Find Available Cars'}
             <ArrowRight size={18} />
           </button>
         </div>

@@ -2,25 +2,35 @@
   {
     "id": "car-1",
     "vehicleType": "car",
-    "name": "Hyundai Elantra",
-    "type": "Economy",
+    "name": "Volkswagen Polo",
+    "type": "Hatchback",
     "pricePerDay": 1800,
     "seats": 5,
     "luggage": 2,
     "transmission": "Automatic",
-    "features": ["Chilled A/C", "Bluetooth Audio", "USB Charging Port", "Rear-view Camera"],
+    "features": [
+      "Chilled A/C",
+      "Bluetooth Audio",
+      "USB Charging Port",
+      "Rear-view Camera"
+    ],
     "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "car-2",
     "vehicleType": "car",
-    "name": "Jeep Grand Cherokee",
+    "name": "Ford Explorer",
     "type": "SUV",
     "pricePerDay": 3500,
     "seats": 7,
     "luggage": 4,
     "transmission": "Automatic",
-    "features": ["4x4 Drive", "Apple CarPlay", "Heated Seats", "Blind Spot Monitor"],
+    "features": [
+      "4x4 Drive",
+      "Apple CarPlay",
+      "Heated Seats",
+      "Blind Spot Monitor"
+    ],
     "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80"
   },
   {
@@ -32,7 +42,12 @@
     "seats": 5,
     "luggage": 3,
     "transmission": "Automatic",
-    "features": ["Leather Seats", "Harman Kardon Sound", "Sunroof", "Lane Keep Assist"],
+    "features": [
+      "Leather Seats",
+      "Harman Kardon Sound",
+      "Sunroof",
+      "Lane Keep Assist"
+    ],
     "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80"
   },
   {
@@ -44,23 +59,101 @@
     "seats": 2,
     "luggage": 1,
     "transmission": "PDK Automatic",
-    "features": ["Twin Turbo H6 Engine", "Sport Exhaust", "Carbon Accents", "Bose Surround System"],
+    "features": [
+      "Twin Turbo H6 Engine",
+      "Sport Exhaust",
+      "Carbon Accents",
+      "Bose Surround System"
+    ],
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "bike-1",
-    "vehicleType": "bike",
-    "name": "Honda Activa 6G",
-    "type": "Economy Scooty",
-    "pricePerDay": 400,
-    "seats": 2,
-    "luggage": 0,
-    "transmission": "Automatic CVT",
-    "features": ["Helmet Included", "Zero Security Deposit", "Under-seat Storage", "Combi-Braking System"],
-    "image": "https://images.unsplash.com/photo-1622185135505-2d795003994a?auto=format&fit=crop&w=600&q=80"
+    "id": "car-5",
+    "vehicleType": "car",
+    "name": "Tesla Model x",
+    "type": "Electric Compact",
+    "pricePerDay": 7500,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "Automatic",
+    "features": [
+      "Virtual Cockpit",
+      "Leather Upholstery",
+      "Three-zone Climate Control",
+      "Sunroof"
+    ],
+    "image": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&w=600&q=80"
   },
   {
-    "id": "bike-2",
+    "id": "car-6",
+    "vehicleType": "car",
+    "name": "Lamborghini Aventador",
+    "type": "SUV",
+    "pricePerDay": 30000,
+    "seats": 4,
+    "luggage": 2,
+    "transmission": "Manual",
+    "features": [
+      "4WD Low Range",
+      "Convertible Soft Top",
+      "Touchscreen Infotainment",
+      "All-Terrain Tyres"
+    ],
+    "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "car-7",
+    "vehicleType": "car",
+    "name": "Toyota Fortuner",
+    "type": "Premium SUV",
+    "pricePerDay": 4500,
+    "seats": 7,
+    "luggage": 4,
+    "transmission": "Automatic",
+    "features": [
+      "4x4 Drive",
+      "Leather Upholstery",
+      "Dual A/C",
+      "Cruise Control"
+    ],
+    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "car-8",
+    "vehicleType": "car",
+    "name": "Tesla Model S",
+    "type": "Electric Luxury",
+    "pricePerDay": 15000,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "Automatic",
+    "features": [
+      "Autopilot",
+      "Dual Motor AWD",
+      "Gigantic Touchscreen",
+      "Zero Emissions"
+    ],
+    "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "car-9",
+    "vehicleType": "car",
+    "name": "Maruti Swift",
+    "type": "Economy Hatchback",
+    "pricePerDay": 1200,
+    "seats": 5,
+    "luggage": 2,
+    "transmission": "Manual",
+    "features": [
+      "Touchscreen Infotainment",
+      "Excellent Mileage",
+      "Smart Keyless Entry",
+      "Rear Parking Sensors"
+    ],
+    "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "bike-1",
     "vehicleType": "bike",
     "name": "Royal Enfield Classic 350",
     "type": "Cruiser Motorcycle",
@@ -68,19 +161,131 @@
     "seats": 2,
     "luggage": 1,
     "transmission": "5-Speed Manual",
-    "features": ["2 Helmets Included", "Dual-Channel ABS", "Premium Backrest", "Touring Crash Guards"],
+    "features": [
+      "2 Helmets Included",
+      "Dual-Channel ABS",
+      "Retro Exhaust Note",
+      "Touring Seats"
+    ],
     "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "bike-2",
+    "vehicleType": "bike",
+    "name": "Harley-Davidson Street 750",
+    "type": "Cruiser Motorcycle",
+    "pricePerDay": 1100,
+    "seats": 2,
+    "luggage": 1,
+    "transmission": "5-Speed Manual",
+    "features": [
+      "2 Helmets Included",
+      "Dual-Channel ABS",
+      "Premium Backrest",
+      "Touring Crash Guards"
+    ],
+    "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "bike-3",
     "vehicleType": "bike",
-    "name": "Yamaha R15 V4",
+    "name": "KTM RC 390",
     "type": "Sports Bike",
-    "pricePerDay": 1100,
+    "pricePerDay": 1000,
     "seats": 2,
     "luggage": 0,
     "transmission": "6-Speed Manual",
-    "features": ["2 Helmets Included", "Quickshifter", "Traction Control System", "Dual LED Headlamps"],
-    "image": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?auto=format&fit=crop&w=600&q=80"
+    "features": [
+      "2 Helmets Included",
+      "Quickshifter",
+      "Traction Control System",
+      "Dual LED Headlamps"
+    ],
+    "image": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "bike-4",
+    "vehicleType": "bike",
+    "name": "Kawasaki Ninja 400",
+    "type": "Super Sport Bike",
+    "pricePerDay": 1500,
+    "seats": 2,
+    "luggage": 0,
+    "transmission": "6-Speed Manual",
+    "features": [
+      "2 Helmets Included",
+      "Slipper Clutch",
+      "ABS Braking System",
+      "Liquid Cooled Engine"
+    ],
+    "image": "/kawasaki-ninja-400.jpg"
+  },
+  {
+    "id": "bike-5",
+    "vehicleType": "bike",
+    "name": "Vespa VXL 150",
+    "type": "Premium Scooty",
+    "pricePerDay": 600,
+    "seats": 2,
+    "luggage": 0,
+    "transmission": "Automatic CVT",
+    "features": [
+      "Helmet Included",
+      "Classic Retro Styling",
+      "Under-seat USB Port",
+      "Front Disc Brake"
+    ],
+    "image": "/vespa-vxl-150.jpg"
+  },
+  {
+    "id": "bike-6",
+    "vehicleType": "bike",
+    "name": "Suzuki Hayabusa",
+    "type": "Hyper Sports Bike",
+    "pricePerDay": 3500,
+    "seats": 2,
+    "luggage": 0,
+    "transmission": "6-Speed Manual",
+    "features": [
+      "1300cc Engine",
+      "Brembo Stylema Brakes",
+      "Launch Control System",
+      "Dual Helmets Included"
+    ],
+    "image": "/suzuki-hayabusa.jpg"
+  },
+  {
+    "id": "bike-7",
+    "vehicleType": "bike",
+    "name": "Ducati Monster",
+    "type": "Naked Sport Bike",
+    "pricePerDay": 3000,
+    "seats": 2,
+    "luggage": 0,
+    "transmission": "6-Speed Manual",
+    "features": [
+      "Cornering ABS",
+      "Wheelie Control",
+      "TFT Color Display",
+      "Premium Helmet Included"
+    ],
+    "image": "https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "bike-8",
+    "vehicleType": "bike",
+    "name": "Honda Activa 6G",
+    "type": "Economy Scooty",
+    "pricePerDay": 400,
+    "seats": 2,
+    "luggage": 0,
+    "transmission": "Automatic CVT",
+    "features": [
+      "Helmet Included",
+      "Zero Security Deposit",
+      "Under-seat Storage",
+      "Combi-Braking System"
+    ],
+    "image": "/honda-activa-6g.png"
   }
 ]

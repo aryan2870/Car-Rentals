@@ -25,6 +25,30 @@ const MainAppContent = () => {
   const [authView, setAuthView] = useState('login'); // 'login' | 'signup'
   const [pendingRedirect, setPendingRedirect] = useState(false);
 
+  // Sync state with browser history (back/forward navigation support)
+  useEffect(() => {
+    // Replace initial state with current values
+    window.history.replaceState({ activeTab, bookingStep }, '');
+
+    const handlePopState = (event) => {
+      if (event.state) {
+        const { activeTab: newTab, bookingStep: newStep } = event.state;
+        setActiveTab(newTab);
+        setBookingStep(newStep);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  useEffect(() => {
+    const currentState = window.history.state;
+    if (!currentState || currentState.activeTab !== activeTab || currentState.bookingStep !== bookingStep) {
+      window.history.pushState({ activeTab, bookingStep }, '');
+    }
+  }, [activeTab, bookingStep]);
+
   const { bookingDetails, resetBookingFlow, updateBookingDetails } = useBooking();
   const { user } = useAuth();
 
