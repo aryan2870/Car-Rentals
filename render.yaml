@@ -1,0 +1,25 @@
+services:
+  # 1. Express API Backend (Web Service)
+  - type: web
+    name: car-rentals-backend
+    env: node
+    plan: free
+    buildCommand: npm run install-backend
+    startCommand: npm run start
+    envVars:
+      - key: MONGO_URI
+        sync: false # Render will prompt you to paste your MongoDB Atlas URI when applying the blueprint
+
+  # 2. React Vite Frontend (Static Site)
+  - type: web
+    name: car-rentals-frontend
+    env: static
+    plan: free
+    buildCommand: npm run build
+    publishDir: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: car-rentals-backend
+          property: url # Automatically links the frontend to your backend's deployed URL

@@ -3,7 +3,10 @@ import { sendBookingConfirmationEmail } from '../config/emailjs';
 
 const BookingContext = createContext();
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const rawApiUrl = import.meta.env.VITE_API_URL;
+const API_BASE_URL = rawApiUrl 
+  ? (rawApiUrl.endsWith('/api') ? rawApiUrl : `${rawApiUrl}/api`) 
+  : 'http://localhost:5000/api';
 
 export const BookingProvider = ({ children }) => {
   const [cars, setCars] = useState([]);
